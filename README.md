@@ -12,13 +12,13 @@ Python BMI Calculator calculates BMI, BMI Category and Health risk from Height a
 2. Python Libraries needed : pandas, json
 
 # Installation:
-pip install BMI_Calculator
+>> pip install BMI_APP
 
 # Usage :
 
->> import myhealth
+>> from BMI_APP import health
 >> 
->> a = myhealth.health("data.json")    # read raw json data
+>> a = health("data.json")    # read raw json data
 >> 
 >> a.getData()           # displays updated dataframe with new columns
 >> 
