@@ -16,11 +16,13 @@ pip install BMI_Calculator
 
 # Usage :
 
-import myhealth
-
-a = myhealth.health("data.json")    # read raw json data
-a.getData()           # displays updated dataframe with new columns
-a.overweights()       # returns number of over persons
+>> import myhealth
+>> 
+>> a = myhealth.health("data.json")    # read raw json data
+>> 
+>> a.getData()           # displays updated dataframe with new columns
+>> 
+>> a.overweights()       # returns number of over persons
 
 # PyPi Package :
-The package has been build and uploaded at https://pypi.org/project/......
+The package has been build and uploaded at https://github.com/manishgupta-ind/code-20220528-manishgupta
