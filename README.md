@@ -20,9 +20,9 @@ Python BMI Calculator calculates BMI, BMI Category and Health risk from Height a
 >> 
 >> a = health("data.json")    # read raw json data
 >> 
->> a.getData()           # displays updated dataframe with new columns
+>> a.getData()           # displays updated dataframe with new columns having BMI values
 >> 
->> a.overweights()       # returns number of over persons
+>> a.overweights()       # returns number of overweight persons
 
 # PyPi Package :
 The package has been build and uploaded at https://github.com/manishgupta-ind/code-20220528-manishgupta
